@@ -8,13 +8,13 @@ def line(katz_deli)
   end
 
 def take_a_number(katz_deli, name)
-  line_length = katz_deli.length
-  stringy = "The line is currently: "
-  x = 0
-  while x < line_length
-    stringy << "#{x + 1}. #{katz_deli[x]}"
+  line_array = [ ]
+  num = 0
+  while num < katz_deli.length
+    line_array.push("#{x + 1}. #{katz_deli[x]}")
     x += 1 
   end
+  puts "The line is currently: #{line_array} "
 end
   
   
