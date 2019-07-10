@@ -1,3 +1,4 @@
+require "pry"
 
 katz_deli = []
 
@@ -10,6 +11,7 @@ def line(katz_deli)
 def take_a_number(katz_deli, name)
   line_array = [ ]
   num = 0
+  binding.pry
   if katz_deli.length == 0
     puts "The line is empty."
   
