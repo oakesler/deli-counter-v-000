@@ -17,23 +17,6 @@ def take_a_number(katz_deli, name)
   puts "The line is currently: #{line_array} "
 end
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  #stringy = " "
-  #place = katz_deli.length + 1
-  #katz.deli.each do |customer|
-    #stringy >> ""
-  #"The line is currently #{place} #{}
-  #puts "#{name} is ##{place} in line."
-  #end
-
 def now_serving
   if katz_deli.length > 0 
     puts "Now serving #{katz_deli[0]}!"
